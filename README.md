@@ -1,4 +1,4 @@
-February 2017
+Feb 2017
 
 A game created for CSC505: Data Structures and Algorithms with Christine Hu and Gregory Zhu.
 
@@ -6,4 +6,4 @@ Concept: Newbould wants to destroy the bears before they kill him. The player mo
 
 We used JavaFX to code the game, and Quadtrees for efficient collision detection of projectiles, bears, and Newbould. To implement the Quadtrees, we extended binary trees with each node having four children; thus the screen was split into quarters. When the number of objects in a quarter exceeds a preset number, that quarter divides into quarters. The Quadtree is constantly changing to follow movement and distribution of objects. The two functions required for the Quadtree are insert and retrieve, both of which are recursive. The big O analysis is O(n log n) time to track collisions, which improves upon the O(n^2) to compare each object with each other.
 
-To play this game, go to this link https://drive.google.com/open?id=0B1Ho5sCQLofgWVZrdjg5WHNCSm8 and pres DOWNLOAD ALL. Then open the folder and run the game.jar application. Enjoy!
+To play this game, go to this link https://drive.google.com/open?id=0B1Ho5sCQLofgWVZrdjg5WHNCSm8 and press DOWNLOAD ALL. Then open the folder and run the game.jar application. Enjoy!
